@@ -11,6 +11,9 @@ class Proxygen < Formula
 	depends_on "openssl"
 	depends_on "folly"
 	depends_on "wangle"
+	depends_on "libevent"
+	depends_on "gflags"
+	depends_on "glog"
 	depends_on "boost"
 
 	patch :p0, <<-EOS.undent
